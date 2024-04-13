@@ -60,13 +60,13 @@ This is a simple application to retrieve weather information for a city using th
 ### Screenshots
 
 #### Home Page
-![Home Page](home.png)
+![Home Page](screenshot/home.png)
 
 #### Example - Weather in Rio de Janeiro (RJ)
-![Weather in Rio de Janeiro](RJweather.png)
+![Weather in Rio de Janeiro](screenshot/RJweather.png)
 
 #### Example - Weather in São Paulo (SP)
-![Weather in São Paulo](SPweather.png)
+![Weather in São Paulo](screenshot/SPweather.png)
 
 ### Notes
 Ensure you are connected to the internet so that the application can make requests to the OpenWeatherMap API. If there is any unexpected error while fetching data, a message will be logged to the browser console.

@@ -16,12 +16,13 @@ form === null || form === void 0 ? void 0 : form.addEventListener("submit", (eve
     if (!input || !sectionTempoInfo)
         return;
     const local = input.value;
+    const API_ID = "coloque sua API ID Aqui!";
     if (local.length < 3) {
         alert("O local precisa ter, pelo menos, tres letras");
         return;
     }
     try {
-        const response = yield fetch(`https://api.openweathermap.org/data/2.5/weather?q=${local}&appid=9c0f34e9b9fe52d08f558c3792d27e67&lang=pt_br&units=metric`);
+        const response = yield fetch(`https://api.openweathermap.org/data/2.5/weather?q=${local}&appid=${API_ID}&lang=pt_br&units=metric`);
         const data = yield response.json();
         console.log(data);
         const infos = {

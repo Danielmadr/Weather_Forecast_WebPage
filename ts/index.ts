@@ -9,6 +9,7 @@ form?.addEventListener("submit", async (event) => {
   if (!input || !sectionTempoInfo) return;
 
   const local = input.value;
+  const API_ID = "coloque sua API ID Aqui!";
 
   if (local.length < 3) {
     alert("O local precisa ter, pelo menos, tres letras");
